@@ -1,3 +1,4 @@
+// calculate the electricBill
 function electricBill(units){
     let total = 0;
     if (units <= 100){
