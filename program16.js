@@ -1,3 +1,4 @@
+//check if a character is uppercase, lowercase, digit, or special character
 function Ischar(char){
     if(char >= "A" && char <= "Z"){
         return "UpperCase"
