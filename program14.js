@@ -1,3 +1,4 @@
+// check if a character is vowel or  consonent 
 let char='4';
 const charlowerCase= char.toLowerCase()
 if(charlowerCase=='a' || charlowerCase=='e'||charlowerCase=='i' || charlowerCase=='o'||charlowerCase =='u'){
