@@ -6,8 +6,12 @@ for(let i=1;i<=n;i++){
         str+=" "
     }
     for(let s=1;s<=2*i-1;s++){
-        
+        if(s===1|| s===2*i-1){
+
             str+="*";
+        }else{
+            str+=" "
+        }
         }
       
         console.log(str);
@@ -20,8 +24,12 @@ for(let i=n-1;i>=1;i--){
         str+=" "
     }
     for(let s=1;s<=2*i-1;s++){
-        
+        if(s===1||s===2*i-1||i===n){
+
             str+="*";
+        }else{
+            str+=" "
+        }
         }
         
        
