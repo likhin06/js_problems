@@ -1,6 +1,8 @@
-let n =5;
+//multiplication
+let num =5;
+let n =10;
 for(let i=1;i<=n;i++){
     
-    console.log(5*i);
+    console.log(num+"*"+i+"="+(num*i));
     
 }
